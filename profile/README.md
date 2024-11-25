@@ -1,12 +1,106 @@
-## Hi there 👋
+# SpartaCoding-iOS5기 Study GitHub
+팀 스터디를 위한 깃허브 레파지토리입니다.
 
-<!--
+각 프로젝트별 레파지토리를 생성하고, 포크와 브랜치 기반 협업을 통해 코드 리뷰를 진행하며 함께 성장하는 스터디를 목표로 합니다. 🚀
 
-**Here are some ideas to get you started:**
+## 📚 스터디 진행 방식
+### 1. 레파지토리 생성
+프로젝트별로 독립적인 레파지토리를 생성합니다.
+각 레파지토리의 목적과 진행 방향은 README에 명시합니다.
+### 2. 레파지토리 포크
+팀원들은 각 프로젝트의 레파지토리를 **포크(Fork)**하여 자신의 깃허브 계정으로 가져옵니다.
+### 3. 브랜치 생성
+포크한 개인 레파지토리에서 자신의 이름을 딴 브랜치를 생성합니다.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+브랜치 네이밍 규칙:
+```
+[이름]-[레벨]
+예) Jamong-Lv1
+```
+### 4. 작업 및 커밋
+로컬 환경에서 작업 후 작업 단위로 커밋을 작성합니다.
+
+커밋 메시지 규칙:
+
+```
+[타입]: 작업 내용
+예) feat: 로그인 기능 구현
+```
+타입	설명
+
+- feat	새로운 기능 추가
+
+- fix	버그 수정
+
+- refactor	코드 리팩토링
+
+- docs	문서 수정
+
+- chore	기타 작업 (환경 설정 등)
+
+### 5. Pull Request(PR)
+작업 완료 후, 개인 브랜치에서 팀 레파지토리로 **Pull Request(PR)**를 생성합니다.
+
+PR 작성 규칙:
+```
+제목 형식: [레벨] 작업 내용 - 팀원 이름
+예: [Lv_1] 로그인 UI 구현 - 홍길동
+```
+PR 본문: 
+```
+구현한 기능 및 로직 요약, 특이사항 작성.
+```
+### 6. 코드 리뷰 및 피드백
+팀원들은 PR에 대해 코드 리뷰를 진행합니다.
+피드백을 반영한 수정 작업을 진행하며, 모든 팀원이 동의하면 병합을 진행합니다.
+### 7. 브랜치 및 작업 관리
+Pull Request 이후 추가 작업이 필요하면 새로운 브랜치를 생성하여 진행합니다.
+```
+예: Jamong-Lv1에서 추가 작업 시 Jamong-Lv2 생성.
+```
+## 📝 협업 규칙
+Pull Request 작성 규칙
+
+제목 형식: 
+```
+[레벨] 작업 내용 - 팀원 이름
+```
+예: 
+```
+[Lv_1] 회원가입 로직 구현 - 김코딩
+```
+본문 작성:
+```
+구현한 주요 기능
+작업 내용과 구현한 로직 요약.
+```
+### 특이 사항
+
+해결되지 않은 문제나 논의가 필요한 사항 명시.
+레파지토리 및 브랜치 관리
+
+### Fork로 가져오기
+
+팀 레파지토리를 개인 레파지토리로 포크합니다.
+
+### 브랜치 생성
+
+작업 시작 시 자신의 이름과 레벨을 조합한 브랜치를 생성합니다.
+
+### Pull Request 생성
+
+작업 완료 후 팀 레파지토리로 Pull Request를 생성합니다.
+
+코드 리뷰 및 수정 작업을 완료한 후 병합합니다.
+
+## ✨ 스터디의 목표
+코드 품질 향상: 코드 리뷰를 통해 더 나은 코드를 작성합니다.
+
+협업 능력 강화: 깃허브를 활용한 협업 경험을 쌓습니다.
+
+문제 해결 능력 배양: 팀원들과 논의하며 다양한 문제 해결 방식을 익힙니다.
+
+## 🚀 기술 스택
+프로그래밍 언어: Swift
+
+도구: GitHub, Slack, Xcode
